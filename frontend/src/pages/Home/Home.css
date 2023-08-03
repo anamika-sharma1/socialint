@@ -1,0 +1,26 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    position: relative;
+}
+
+.home .top{
+    /* padding:5px; */
+    height: 50px;
+    width: 100%;
+    position: sticky;
+    top:0px;
+    z-index:999;
+}
+
+.home .bottom{
+    display: flex;
+    height: calc(100vh-50px);
+    position: relative;
+    overflow: scroll;
+}
+
+.home.dark .top{
+    z-index: -15;
+}

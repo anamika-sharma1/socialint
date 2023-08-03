@@ -1,0 +1,129 @@
+.navbar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    gap:20px;
+    background-color: rgb(93, 39, 39);
+    color:white;
+    align-items: center;
+    top:1px;
+    position: sticky;
+    padding: 30px;
+}
+
+.search{
+    background-color: rgb(93, 39, 39);
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 100%;
+}
+
+.messengerClass{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex:2;
+}
+
+.messengerClass span{
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.navbar.dark{
+    opacity: 0.33;
+    z-index: -15;
+}
+
+.messengerClass span:hover{
+    background-color: white;
+    color: rgb(93, 39, 39);
+    transition: all 0.2s linear;
+}
+
+.navbar .left{
+    display: flex;
+    flex:3;
+    padding:5px;
+    font-size: 30px;
+    font-weight: bold;
+    align-items: center;
+    color: white;
+}
+
+.navbar .center{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    flex:5;
+    gap:10px;
+    background-color: white;
+    color: black;
+    height: 30px;
+    border-radius: 30px;
+}
+
+.navbar .center .searchInput{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 0% !important;
+}
+
+ .navbar .right{
+    display: flex;
+    align-items: center;
+    gap:30px;
+    flex: 3;
+    height: 100%;
+
+}
+/*
+
+.navbar .right .left{
+    flex:2;
+    display: flex;
+    font-size: 10px;
+    gap: 20px;
+    justify-content: end;
+}
+
+.navbar .right .left .icon{
+    display: flex;
+    position: relative;
+}
+
+.navbar .right .left .icon span{
+    width: 15px;
+    height: 15px;
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    right: -5px;
+    top:-5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.navbar .right .right{
+    flex:1;
+    justify-content: end;
+}
+.navbar .right .right img{
+    
+    height: 32px;
+    width: 32px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    border: 1px solid black;
+}

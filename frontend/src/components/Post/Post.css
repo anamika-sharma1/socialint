@@ -1,0 +1,144 @@
+.post {
+    max-height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 2px 14px -7px black;
+}
+
+.post-top {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px
+}
+
+.post-center {
+    max-height: 500px;
+    /* padding: 20px; */
+}
+
+.post-bottom {
+    flex: 1;
+    padding: 20px;
+}
+
+.post-details-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post-details-top-left {
+    display: flex;
+    gap: 20px
+}
+
+.post-details-top-right {
+    position: relative;
+}
+
+.post.dark{
+    color: rgb(162, 162, 162, 50%)
+}
+
+.post.dark .time{
+    opacity: 0.33;
+}
+
+.post.dark .post-details-top-right {
+    position: static;
+}
+
+.post.dark img{
+    opacity: 0.33;
+    border: 1px solid black;
+}
+
+.post-details-top-left img {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    border: 1px solid black;
+}
+
+.post-details-top-left .username {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.post-details-top-left .time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    color: gray;
+}
+
+.post-details-bottom {
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+    font-size: 13px;
+}
+
+b{
+    font-size: 14px;
+}
+
+.post-hr {
+    margin: auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width: 100%;
+}
+
+.post-center {
+    width: 100%;
+}
+
+.post-center .img {
+    max-height: 500px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.post-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postIcon {
+    font-size: 2.3rem;
+}
+
+.post-bottom-right {
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.post-bottom-left {
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:7px;
+    font-size: 14px;
+}

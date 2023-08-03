@@ -1,0 +1,19 @@
+.conversation{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.conversation:hover{
+    background-color: rgb(238, 234, 234);
+}
+
+.conversation .img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+}

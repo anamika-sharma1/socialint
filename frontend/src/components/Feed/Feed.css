@@ -1,0 +1,36 @@
+.feed{
+    flex:6;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.feed.dark{
+    position: relative;
+    /* z-index: -2; */
+}
+
+.my-posts{
+    margin: auto;
+    width:fit-content;
+    padding: 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 2px 14px -7px black;
+}
+
+.bottom-feed{
+    padding: 50px;
+}
+
+.posts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+

@@ -1,0 +1,169 @@
+.sidebar{
+    flex:2;
+    /* padding:20px; */
+    height: 100%;
+    /* background-image: linear-gradient(to left, transparent,70%, rgba(0,0,0,1)); */
+    overflow: scroll;
+    position: sticky;
+    top:20px;
+    color: rgb(93, 39, 39);
+}
+
+.socialint-logo{
+    height: 70px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.top-of-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.sidebar.dark{
+    opacity: 0.33;
+    z-index: -15;
+}
+
+.icon{
+    color:rgb(173, 168, 168);
+}
+
+.sidebar-link:hover{
+    background-color: rgb(241, 236, 236);
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background-color: gray;
+}
+
+.sidebar-link{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(93, 39, 39);
+    font-size: 14px;
+}
+
+.sidebar-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap:15px;
+}
+
+.item{
+    display: flex;
+    gap:30px;
+    cursor: pointer;
+    width: 70%;
+    align-items: center;
+}
+
+.btn{
+    display: flex;
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin: auto;
+}
+
+hr{
+    margin-top: 5px;
+    width: 95%;
+    color: lightgray;
+}
+
+.bottom-of-wrapper{
+    margin-top:10px;
+    display: flex;
+    flex-direction: column;
+    /* padding: 10px; */
+    gap:10px
+}
+
+.friend{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    gap:10px;
+    font-size:13px
+}
+
+.friend img{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    border: 1px solid black;
+}
+
+.Followers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.sidebar-friend {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.sidebar-friend .img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.sidebar-span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar-friend span {
+    font-weight: bold;
+}
+
+.friends {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.link{
+    display: flex;
+    width: fit-content;
+    font-size: 14px;
+}

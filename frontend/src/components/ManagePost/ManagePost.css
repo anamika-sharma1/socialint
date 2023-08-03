@@ -1,0 +1,30 @@
+span{
+    cursor:pointer
+}
+
+.managePost{
+    position: absolute;
+    height: fit-content;
+    width: 100px;
+    top:30px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 1px 2px 14px -7px black;
+    padding: 5px;
+    gap:2px
+   
+}
+
+.managePostSpan{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap:10px;
+    margin-bottom: 1px;
+}
+
+.managePostSpan:hover{
+    background-color: rgb(236, 229, 229);
+}
